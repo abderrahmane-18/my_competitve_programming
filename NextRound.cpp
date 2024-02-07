@@ -5,15 +5,15 @@ using namespace std;
 
 int main()
 { 
-    int n;
+    int number_paricipants;
    int k,cpt=0;
   
-    cin>> n;
+    cin>> number_paricipants;
    
     cin>> k;
 
-    int arr[n];
-    for(size_t i=0;i<n;i++){
+    int arr[number_paricipants];
+    for(size_t i=0;i<number_paricipants;i++){
       
        cin >> arr[i];
     }

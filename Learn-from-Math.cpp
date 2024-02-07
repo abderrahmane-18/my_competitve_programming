@@ -1,0 +1,26 @@
+#include <iostream>
+#include<stdbool.h>
+#include<math.h>
+
+using namespace std;
+
+int main()
+{
+    int n;
+do{
+cin >>n;
+}while(n<12);
+if(n%2==0)
+ cout<<4<<" "<<n-4;
+else
+cout<<9<<" "<<n-9;
+
+
+
+
+
+
+
+return 0;
+}
+
